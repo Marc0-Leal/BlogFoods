@@ -12,7 +12,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.proyectoblog.ui.screens.HomeScreen
-import com.example.proyectoblog.ui.screens.RegisterScreen
 import com.example.proyectoblog.ui.theme.ProyectoBlogTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ProyectoBlogTheme {
-                RegisterScreen()
+
             }
         }
     }
