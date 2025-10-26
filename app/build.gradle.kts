@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.proyectoblog"
+    namespace = "com.evalenzuela.navigation"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.proyectoblog"
-        minSdk = 24
+        applicationId = "com.evalenzuela.navigation"
+        minSdk = 36
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
